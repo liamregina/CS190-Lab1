@@ -1,0 +1,18 @@
+[2025-06-14 06:21:27] [/workspaces/CS190-Lab1] source .devcontainer/shell.sh
+[2025-06-14 06:36:22] [/workspaces/CS190-Lab1] echo "Hello World!" > myfile.txt
+[2025-06-14 06:36:44] [/workspaces/CS190-Lab1] git add myfile.txt
+[2025-06-14 06:45:08] [/workspaces/CS190-Lab1] git commit -m "Add myfile.txt with sample content"
+[2025-06-14 06:45:27] [/workspaces/CS190-Lab1] git push origin main
+[2025-06-14 06:45:27] [/workspaces/CS190-Lab1] # or replace `main` with your branch name
+[2025-06-14 06:45:33] [/workspaces/CS190-Lab1] tar -czvf myfile.tar.gz myfile.txt
+[2025-06-14 06:45:49] [/workspaces/CS190-Lab1] tar -xzvf myfile.tar.gz
+[2025-06-14 06:45:49] [/workspaces/CS190-Lab1] cat myfile.txt  # check contents
+[2025-06-14 06:46:05] [/workspaces/CS190-Lab1] zip myfile.zip myfile.txt
+[2025-06-14 06:49:33] [/workspaces/CS190-Lab1] unzip myfile.zip
+[2025-06-14 06:50:05] [/workspaces/CS190-Lab1] cat myfile.txt
+[2025-06-14 06:50:14] [/workspaces/CS190-Lab1] time ./program.sh 100
+[2025-06-14 06:50:14] [/workspaces/CS190-Lab1] time ./program.sh 10000
+[2025-06-14 06:53:50] [/workspaces/CS190-Lab1] diff file_a.txt file_b.txt
+[2025-06-14 06:56:25] [/workspaces/CS190-Lab1] head very_large_text_file.txt
+[2025-06-14 06:56:25] [/workspaces/CS190-Lab1] tail very_large_text_file.txt
+[2025-06-14 06:57:12] [/workspaces/CS190-Lab1] less very_large_text_file.txt

@@ -32,7 +32,7 @@ The time program allows you to use figure out how long it took a specific progra
 2. Use the `time` command to run the program.sh with an argument of 10000
 
 What is the difference in time between task 1 and task 2?  
-**[YOUR ANSWER HERE]**
+**Task 2 took 0.026 seconds longer in real time**
 
 # Part 4 `diff`
 When working with log files or any other text files we may want to compare two different text files to see what has changed between them. For example if you run a program twice with different arguments we may want to find out what is different between each programs outputs. Please refer to the following link for details on how to read the `diff` commands output.
@@ -43,7 +43,19 @@ https://people.eecs.berkeley.edu/~bh/v2ch2/diff.html
 1. Use the diff command to compare file_a.txt and file_b.txt
 
 Which lines and/or characters are different between these files?
-**[YOUR ANSWER HERE]**
+
+
+- Line 11 was added in `file_b.txt`: "- Cloud backup integration"
+- Line 14 changed: "Weeks 1-3" → "Weeks 1-4"
+- Line 18 was added in `file_b.txt`: "- Design initial UI mockups"
+- Line 20 changed: "Weeks 4-8" → "Weeks 5-9"
+- Line 25 changed: "Weeks 9-12" → "Weeks 10-12"
+- Line 31 changed: "React.js 18.0" → "React.js 18.2"
+- Lines 34–35 changed/added:
+  - "Express 4.18.0" → "Express 4.18.2"
+  - New line: "- Redis 7.0"
+- Line 43 was added: "- James Wilson: DevOps Specialist"
+
 
 # Part 5 `head`/`tail` `more`/`less`
 Sometimes we use the terminal to view very large text files such as system logs. Printing these large text files to the terminal usually forces portions to get cut off due to the buffer size of terminal emulator. While you could increase the buffer size to fit the entire file, this is not a great solution. We can use programs like head/tail to view the top or bottom of the files then scroll up from there. more and less do similar things, more allows forward navigation and minimal backwards navigation, while less allows for both forward and backwards navigation. 
